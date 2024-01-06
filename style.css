@@ -1,0 +1,7 @@
+header>nav{
+    display: inline;
+}
+
+header>nav .menu{
+    text-align: center;
+}
