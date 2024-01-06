@@ -205,9 +205,42 @@ main section {
     margin-top: 50px;
 }
 
-footer{
+footer {
     margin-top: 100px;
     display: flex;
+    gap: 100px;
     background-color: #ED006614;
     padding: 130px 200px;
+}
+
+.footer-column {
+    width: 50%;
+}
+
+.social-links a{
+    margin-right: 24px;
+}
+
+.contact input[type="text"], .contact input[type="email"],
+textarea {
+    display: block;
+    margin-bottom: 24px;
+    padding: 18px 36px;
+    border: none;
+    width: 460px;
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 5px;
+}
+
+.footer-column .section-title {
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.footer-column .section-description {
+    text-align: justify;
+    max-width: 562px;
+    margin-bottom: 30px;
 }
